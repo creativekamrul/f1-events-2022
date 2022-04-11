@@ -49,7 +49,7 @@ const LoginPage = () =>{
               />
             </form>
             <p className="text-center">
-              Don't have a account?
+              Dont have a account?
               <Link href={"/User/Registar"}>Registar Here</Link>
             </p>
           </div>
