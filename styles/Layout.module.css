@@ -1,0 +1,17 @@
+.Header a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.Header{
+    margin-bottom: 20px;
+}
+.Footer{
+    margin-top: 30px;
+    padding: 30px;
+    color: #fff;
+    background-color: rgb(9, 0, 34);
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,16 +1,17 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+body{
+    font-family: "Source Sans Pro" !important;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+button a, button a:hover{
+    color: #fff;
+    text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+.menu-links a{
+    margin: 5px;
+}
+.btn-light a{
+    color: #000 !important
+}
+.menu-links .btn-light{
+    margin: 15px;
 }
