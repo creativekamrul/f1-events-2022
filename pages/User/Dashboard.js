@@ -9,7 +9,7 @@ import AuthContext from "@/context/AuthContext";
 function Dashboard() {
     const { userPosts, error, getUserPosts, loading } = useContext(AuthContext);
 
-    useEffect(() => error && toast.error(error))
+    useEffect(() => error && toast.error(error), [error])
     useEffect(() => {
         getUserPosts()
     }, [])

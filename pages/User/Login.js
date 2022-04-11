@@ -5,7 +5,7 @@ import Link from "next/link";
 import AuthContext from "@/context/AuthContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-function LoginPage() {
+const LoginPage = () =>{
 
   const { userLogin, error } = useContext(AuthContext);
   useEffect(() => error && toast.error(error))
@@ -49,7 +49,7 @@ function LoginPage() {
               />
             </form>
             <p className="text-center">
-              Don't have a account?{" "}
+              Don't have a account?
               <Link href={"/User/Registar"}>Registar Here</Link>
             </p>
           </div>
