@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AuthContext from "@/context/AuthContext";
 import {BACK_API_URL} from "@/config/index";
-const addEvent = () => {
+const AddEvent = () => {
   const {error, jwtToken, user } = useContext(AuthContext);
   useEffect(() => error && toast.error(error))
   const [formValues, setFormValues] = useState({
@@ -110,4 +110,4 @@ const addEvent = () => {
   );
 }
 
-export default addEvent;
+export default AddEvent;

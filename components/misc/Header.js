@@ -22,7 +22,7 @@ const Header = () => {
               <Link href="/events">All Events</Link>
               {user ? (
                 <>
-                 <Link href="/addevent">Add Event</Link>
+                 <Link href="/Addevent">Add Event</Link>
                  <Link href="/User/Dashboard">Dashboard</Link>
                   <button className="btn btn-light" onClick={userLogout}>
                     
