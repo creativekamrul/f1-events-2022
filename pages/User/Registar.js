@@ -5,7 +5,7 @@ import Link from "next/link";
 import AuthContext from "@/context/AuthContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-export defalut function RegistarPage() {
+export default function RegistarPage() {
   const { userRegistar, error } = useContext(AuthContext);
   useEffect(() => error && toast.error(error))
   const [email, setEmail] = useState("");
