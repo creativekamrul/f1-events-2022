@@ -6,7 +6,7 @@ import AuthContext from "@/context/AuthContext";
 
 
 
-function Dashboard() {
+export default function Dashboard() {
     const { userPosts, error, getUserPosts, loading } = useContext(AuthContext);
 
     useEffect(() => error && toast.error(error), [error])
@@ -56,5 +56,5 @@ if(!loading){
       );
 }
         }
-export default Dashboard;
+
 
